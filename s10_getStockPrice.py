@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # 종목코드 딕셔너리
-stocks = {'에스티큐브':{'code':'052020'}, 'SK하이닉스':{'code':'000660'}, '삼성생명':{'code':'032830'},'에코프로':{'code':'086520'}}
+stocks = {'에스티큐브':{'code':'052020'}, '삼성전자':{'code':'005930'}, '삼성생명':{'code':'032830'},'에코프로':{'code':'086520'}}
 
 def setPrice(stocks):
     for _key, _value in stocks.items():
